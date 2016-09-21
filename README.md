@@ -1,6 +1,9 @@
 # kasse-engine
 Client and Server based POS application using Spring Boot, Spring Data, MongoDb and REST
 
+This project describes a kasse engine (includes client and server) for POS software deployment. Client and Server are connected using the REST services making it more flexible for other client applications to communicate with the server.
+As server uses REST end point connection, the client application can be of any type starting from web application, desktop application and to any mobile device based applications.
+
 ## Java version required
 - Java 8
 
