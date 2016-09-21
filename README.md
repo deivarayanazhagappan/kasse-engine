@@ -1,5 +1,5 @@
 # kasse-engine
-Client and Server based POS application based on Spring boot, Spring Data, MongoDb and REST
+Client and Server based POS application using Spring Boot, Spring Data, MongoDb and REST
 
 ## Java version required
 - Java 8
