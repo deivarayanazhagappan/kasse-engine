@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: dev.kasse.engine.server.test.query.TicketQueryTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec - in dev.kasse.engine.server.test.query.TicketQueryTest

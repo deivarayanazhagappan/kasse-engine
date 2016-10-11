@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: dev.kasse.engine.server.test.rest.MenuGroupControllerTest
--------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 sec - in dev.kasse.engine.server.test.rest.MenuGroupControllerTest

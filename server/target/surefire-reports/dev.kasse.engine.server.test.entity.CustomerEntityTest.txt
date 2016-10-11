@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: dev.kasse.engine.server.test.entity.CustomerEntityTest
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.695 sec - in dev.kasse.engine.server.test.entity.CustomerEntityTest

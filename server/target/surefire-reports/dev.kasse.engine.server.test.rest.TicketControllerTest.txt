@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: dev.kasse.engine.server.test.rest.TicketControllerTest
--------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec - in dev.kasse.engine.server.test.rest.TicketControllerTest

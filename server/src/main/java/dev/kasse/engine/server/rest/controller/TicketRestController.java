@@ -29,11 +29,6 @@ public class TicketRestController {
     return ticketService.saveTicket(ticket);
   }
 
-  @RequestMapping(method = { RequestMethod.DELETE })
-  public void deleteMenuItem(@RequestParam(required=true) Ticket ticket) {
-    ticketService.deleteTicket(ticket);
-  }
-
   @RequestMapping(path = "/id", method = { RequestMethod.DELETE })
   public void deleteTicketById(@RequestParam(required=true) String ticketId) {
     ticketService.deleteTicketById(ticketId);

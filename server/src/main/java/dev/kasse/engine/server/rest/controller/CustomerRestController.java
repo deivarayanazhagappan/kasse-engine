@@ -3,6 +3,7 @@ package dev.kasse.engine.server.rest.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,13 +25,8 @@ public class CustomerRestController {
   public CustomerService customerService;
 
   @RequestMapping(method = { RequestMethod.POST })
-  public void saveCustomer(@RequestParam(required=true) Customer customer) {
+  public void saveCustomer(@RequestBody Customer customer) {
     customerService.saveCustomer(customer);
-  }
-
-  @RequestMapping(method = { RequestMethod.DELETE })
-  public void deleteCustomer(@RequestParam(required=true) Customer customer) {
-    customerService.deleteCustomer(customer);
   }
 
   @RequestMapping(path = "/id", method = { RequestMethod.DELETE })
@@ -44,7 +40,7 @@ public class CustomerRestController {
   }
 
   @RequestMapping(path = "/all", method = { RequestMethod.GET })
-  public List<Customer> getAllCustomer() {
+  public List<Customer> getAllCustomers() {
     return customerService.getAll();
   }
 
